@@ -1,0 +1,47 @@
+{
+  "name": "ngx-mitaa",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^15.1.0",
+    "@angular/core": "^15.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "keywords": [
+    "angular",
+    "ngx",
+    "mitaa",
+    "location",
+    "continents",
+    "countries",
+    "regions",
+    "districts",
+    "ward",
+    "streets"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muneersahel/ngx-mitaa.git"
+  },
+  "module": "fesm2015/ngx-mitaa.mjs",
+  "es2020": "fesm2020/ngx-mitaa.mjs",
+  "esm2020": "esm2020/ngx-mitaa.mjs",
+  "fesm2020": "fesm2020/ngx-mitaa.mjs",
+  "fesm2015": "fesm2015/ngx-mitaa.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-mitaa.mjs",
+      "es2020": "./fesm2020/ngx-mitaa.mjs",
+      "es2015": "./fesm2015/ngx-mitaa.mjs",
+      "node": "./fesm2015/ngx-mitaa.mjs",
+      "default": "./fesm2020/ngx-mitaa.mjs"
+    }
+  }
+}

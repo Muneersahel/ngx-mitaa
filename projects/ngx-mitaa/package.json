@@ -1,0 +1,28 @@
+{
+  "name": "ngx-mitaa",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^15.1.0",
+    "@angular/core": "^15.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "keywords": [
+    "angular",
+    "ngx",
+    "mitaa",
+    "location",
+    "continents",
+    "countries",
+    "regions",
+    "districts",
+    "ward",
+    "streets"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muneersahel/ngx-mitaa.git"
+  }
+}
