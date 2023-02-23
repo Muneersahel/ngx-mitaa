@@ -19,4 +19,4 @@ jobs:
       - name: Publish
         run: cd dist/ngx-mitaa && npm publish --access public
          env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
