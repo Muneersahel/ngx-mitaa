@@ -27,12 +27,12 @@ jobs:
         with:
           name: deploy_dist
           path: dist/ngx-mitaa
-      - name: Archive code coverage result
-        if: success()
-        uses: actions/upload-artifact@v1
-        with:
-          name: deploy_coverage
-          path: coverage/ngx-mitaa
+      # - name: Archive code coverage result
+      #   if: success()
+      #   uses: actions/upload-artifact@v1
+      #   with:
+      #     name: deploy_coverage
+      #     path: coverage/ngx-mitaa
 
   publish:
     runs-on: ubuntu-latest
