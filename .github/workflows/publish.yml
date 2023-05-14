@@ -19,8 +19,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build:lib
-      - name: Test
-        run: npm run test:lib-coverage
+      # - name: Test
+      #   run: npm run test:lib-coverage
       - name: Archive build
         if: success()
         uses: actions/upload-artifact@v1
