@@ -99,10 +99,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngx-mitaa-webpage:build:production"
+              "buildTarget": "ngx-mitaa-webpage:build:production"
             },
             "development": {
-              "browserTarget": "ngx-mitaa-webpage:build:development"
+              "buildTarget": "ngx-mitaa-webpage:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -110,7 +110,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-mitaa-webpage:build"
+            "buildTarget": "ngx-mitaa-webpage:build"
           }
         },
         "test": {
