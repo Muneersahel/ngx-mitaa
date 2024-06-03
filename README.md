@@ -115,6 +115,9 @@ This will return an array of strings with the following structure;
 [
   "Dar es Salaam",
   "Dodoma",
+  "Iringa",
+  "Kagera",
+  "Kigoma",
   "Kilimanjaro",
   "Lindi",
   "Manyara",
