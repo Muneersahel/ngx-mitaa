@@ -1,0 +1,28 @@
+.installation-container {
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 600px;
+}
+
+.installation-container h2 {
+  margin-top: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.installation-container p {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.installation-container h3 {
+  margin-top: 1rem;
+}
+
+pre code {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+}
