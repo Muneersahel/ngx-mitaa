@@ -7,9 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test --project ngx-mitaa",
-    "build:lib": "ng build ngx-mitaa && npm run copy:readme",
+    "build:lib": "ng build ngx-mitaa && npm run copy:readme && npm run copy:licence",
     "test:lib-coverage": "ng test ngx-mitaa --watch=false --code-coverage",
     "copy:readme": "copyfiles README.md ./dist/ngx-mitaa",
+    "copy:licence": "copyfiles LICENSE.md ./dist/ngx-mitaa",
     "publish:lib": "ng build ngx-mitaa  && cd dist/ngx-mitaa && npm publish",
     "format:check": "prettier --list-different 'projects/**/*.ts'",
     "format:write": "prettier --write 'projects/**/*.ts'"
