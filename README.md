@@ -147,9 +147,6 @@ This will return an array of strings with the following structure;
   "Ubungo",
   "Kurasini",
   "Kigamboni",
-  "Kigamboni",
-  "Kigamboni",
-  "Kigamboni",
   ...
 ];
 ```
